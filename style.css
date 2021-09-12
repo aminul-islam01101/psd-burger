@@ -1,0 +1,317 @@
+/* Global Css */
+html{
+    font-size: 62.5%;
+}
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+a{
+    text-decoration: none;
+}
+ul{
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+h1, h2{ 
+    font-family: 'Alfa Slab One', cursive;
+    color: #3d2514;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.row{
+    width: 100%;
+}
+.col-12{
+    width: 100%;
+    float: left;
+}
+.col-6{
+    width: 50%;
+    float: left;
+}
+.col-4{
+    width: 33.3332%;
+    float: left;
+}
+.p-3rem{
+    padding-top: 3rem;
+}
+.m-3rem{
+    margin: 3rem 0;
+}
+.m-2rem{
+    margin: 2rem 0;
+}
+.bg{
+    float: left;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*=====Header section Css===== */
+header{
+    background: url(images/Banner-image.png);
+    height: 100vh;
+}
+header .logo{
+    width: 30%;
+}
+.vector{
+    display: flex;
+    justify-content: end;
+}
+header .vector p {
+    padding-top: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+header .vector img{
+    width: 5%;
+}
+.nav-bar ul{
+    display: flex;
+    justify-content: end;
+}
+.nav-bar ul li{
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+.nav-bar ul li a {
+    color: #3d2514;
+    font-size: 1.7rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+header .border-p{
+    border: 2px dashed #3d2514;
+    width: 60%;
+    padding: 1rem;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.7rem;
+    margin-top: 10rem;
+    
+}
+header h1{
+    font-size: 11.4rem;
+    letter-spacing: .5rem;
+    text-shadow:2px 2px white;
+    text-transform: uppercase;
+}
+header h2{
+    font-size: 6rem;
+    letter-spacing: .5rem;
+    text-shadow:2px 2px white;
+    text-transform: uppercase;
+}
+
+.price-circle{
+    width: 120px;
+    height: 120px;
+    background-color: #bf2222;
+    border-radius: 100%;
+    position: relative;
+   
+    
+}
+.border{
+    border: 2px dashed white;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 8px;
+    left:8px;
+}
+.border p{
+    position: absolute;
+    top: 20px;
+    left:18px;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.border p span{
+    font-size: 1.5rem;
+    letter-spacing: .7rem;
+}
+.price-tag{
+    position: absolute;
+    left: 50%;
+    bottom: 15%;
+}
+/*=====Burger section Css===== */
+
+.burger{
+    float: left;
+    width: 100%;
+}
+.burger .left{
+    position: relative;
+}
+.burger img{
+    width: 95%;
+    padding-top: 3rem;
+}
+.burger .left{
+    position: relative;
+}
+.right{
+    position: relative;
+}
+h3{
+    font-size: 2.5rem;
+}
+h4{
+    font-size: 2rem;
+}
+.caption{
+    position: absolute;
+    top: 50px;
+    color: aliceblue;
+
+    left: 20px;
+}
+.enjoy{
+    float: left;
+    width: 100%;
+}
+.enjoy h2{
+    font-size: 5rem;
+    text-align: center;
+
+}
+.enjoy-title p{
+    width: 60%;
+    margin: 2rem auto 3rem;
+    text-align: center;
+    font-size: 1.6rem;
+    
+}
+.enjoy-title h3{
+    background:#ffc045 ;
+    padding: 1rem;
+    text-transform: uppercase;
+    width: 35rem;
+    margin: 2rem auto;
+}
+.burger-packet h3{
+    text-align: center;
+}
+.burger-packet p{
+    width: 90%;
+    margin: 1rem auto;
+    font-size: 1.6rem;
+    text-align: center;
+}
+.burger-packet button{
+    background: #bf2222;
+    padding: 1rem 1.5rem;
+    width: 30%;
+    margin: 3rem auto;
+    border: none;
+    display: block;
+}
+.burger-packet button a{
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+.burger-packet button:hover{
+    background: #224cbf;
+  
+}
+.discover{
+    height: 100vh;
+    width: 97%;
+    background: url(images/white-bg.png) top;
+    margin: 3rem;  
+}
+.discover h3{
+    font-size: 3rem;
+    margin: 2rem 0;
+}
+
+.discover h2{
+    font-size: 4rem;
+    margin: 2rem 0;
+}
+
+.discover p {
+    font-size: 2rem;
+}
+.discover img{
+    width: 99%;
+    padding: 4rem 2rem 0;
+}
+
+.reservation{
+    background: url(images/burger-bg.png);
+    height: 100vh;
+}
+.reservation-table h3{
+    padding: 1rem;
+    text-transform: uppercase;
+    width: 35rem;
+    margin: 2rem auto;
+    text-align: center;
+    padding-top: 3rem;
+}
+.reservation-table h2{
+    font-size: 5rem;
+    text-align: center;
+    margin-bottom: 10rem;
+}
+.reservation .form-group{
+    width: 53%;
+    margin: 2rem auto; 
+}
+.reservation .form-control{
+    width: 43%;
+    display: inline;
+    height: 3rem;
+    border: 1px solid rgb(240, 18, 18);
+    padding: 1rem;
+    border-radius: 2px;
+    margin-left: 1.5rem;
+}
+.form-control:focus{
+    border: 1px solid cyan;
+    background-color: #eee;
+    outline: none;
+}
+
+.form-control::placeholder{
+    font-size: 1.5rem;
+}
+.reservation button{
+    background: #bf2222;
+    margin-left: 1.5rem;
+    padding: 1rem 2rem;
+    width: 46.5%;
+    border: navy;
+    border-radius: 2px;
+    height: 5rem;
+}
+.reservation button a{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: .2rem;
+}
+.reservation button:hover{
+    background: #224cbf;
+}
+
+
